@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace supermarket_ad0801
 {
-    public partial class Form1 : Form
+    public partial class Family : Form
     {
-        public Form1()
+        public Family()
         {
             InitializeComponent();
         }
