@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace supermarket_ad0801
 {
-    class User
+    public class User
     {
+        public int Uid { get; set; }
         public string Name { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
