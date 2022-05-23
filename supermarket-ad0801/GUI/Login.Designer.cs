@@ -30,7 +30,7 @@ namespace supermarket_ad0801
         private void InitializeComponent()
         {
             this.btnLogin = new System.Windows.Forms.Button();
-            this.btnTryAgain = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
@@ -106,18 +106,18 @@ namespace supermarket_ad0801
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // btnTryAgain
+            // btnClear
             // 
-            this.btnTryAgain.BackColor = System.Drawing.Color.LightCoral;
-            this.btnTryAgain.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnTryAgain.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTryAgain.Location = new System.Drawing.Point(453, 269);
-            this.btnTryAgain.Name = "btnTryAgain";
-            this.btnTryAgain.Size = new System.Drawing.Size(104, 38);
-            this.btnTryAgain.TabIndex = 1;
-            this.btnTryAgain.Text = "Try Again";
-            this.btnTryAgain.UseVisualStyleBackColor = false;
-            this.btnTryAgain.Click += new System.EventHandler(this.btnTryAgain_Click);
+            this.btnClear.BackColor = System.Drawing.Color.LightCoral;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClear.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(453, 269);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(104, 38);
+            this.btnClear.TabIndex = 1;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnTryAgain_Click);
             // 
             // txtUsername
             // 
@@ -614,7 +614,7 @@ namespace supermarket_ad0801
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 450);
             this.Controls.Add(this.panel61);
             this.Controls.Add(this.panel60);
             this.Controls.Add(this.panel59);
@@ -674,7 +674,7 @@ namespace supermarket_ad0801
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.btnTryAgain);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnLogin);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "frmLogin";
@@ -688,7 +688,7 @@ namespace supermarket_ad0801
         #endregion
 
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Button btnTryAgain;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblUsername;

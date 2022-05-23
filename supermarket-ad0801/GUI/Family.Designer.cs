@@ -1,7 +1,7 @@
 ﻿
 namespace supermarket_ad0801
 {
-    partial class Family
+    partial class frmFamily
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace supermarket_ad0801
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmFamily
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "frmFamily";
             this.Text = "Family";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

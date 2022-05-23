@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace supermarket_ad0801
 {
-    public partial class BayPay : Form
+    public partial class frmBuyPay : Form
     {
-        public BayPay()
+        public frmBuyPay()
         {
             InitializeComponent();
         }
