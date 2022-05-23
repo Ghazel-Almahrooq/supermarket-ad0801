@@ -162,7 +162,7 @@ namespace supermarket_ad0801
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(61, 450);
+            this.panel1.Size = new System.Drawing.Size(61, 444);
             this.panel1.TabIndex = 6;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -172,7 +172,7 @@ namespace supermarket_ad0801
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(61, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(18, 450);
+            this.panel2.Size = new System.Drawing.Size(18, 444);
             this.panel2.TabIndex = 7;
             // 
             // panel3
@@ -181,7 +181,7 @@ namespace supermarket_ad0801
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(79, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(16, 450);
+            this.panel3.Size = new System.Drawing.Size(16, 444);
             this.panel3.TabIndex = 8;
             // 
             // panel4
@@ -190,7 +190,7 @@ namespace supermarket_ad0801
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(95, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 450);
+            this.panel4.Size = new System.Drawing.Size(10, 444);
             this.panel4.TabIndex = 9;
             // 
             // panel5
@@ -199,7 +199,7 @@ namespace supermarket_ad0801
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(105, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 450);
+            this.panel5.Size = new System.Drawing.Size(10, 444);
             this.panel5.TabIndex = 10;
             // 
             // label1
@@ -614,7 +614,7 @@ namespace supermarket_ad0801
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(797, 444);
             this.Controls.Add(this.panel61);
             this.Controls.Add(this.panel60);
             this.Controls.Add(this.panel59);

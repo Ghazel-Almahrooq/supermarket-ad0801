@@ -56,7 +56,7 @@ namespace supermarket_ad0801
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(883, 62);
+            this.panel1.Size = new System.Drawing.Size(943, 62);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -182,14 +182,14 @@ namespace supermarket_ad0801
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(160, 62);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(723, 461);
+            this.panelMain.Size = new System.Drawing.Size(783, 461);
             this.panelMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 523);
+            this.ClientSize = new System.Drawing.Size(943, 523);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.panel1);
