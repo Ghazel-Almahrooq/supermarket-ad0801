@@ -16,7 +16,7 @@ namespace supermarket_ad0801
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmForm1());
         }
     }
 }

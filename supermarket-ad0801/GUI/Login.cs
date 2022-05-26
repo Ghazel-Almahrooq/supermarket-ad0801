@@ -11,7 +11,10 @@ using System.Windows.Forms;
 namespace supermarket_ad0801
 {
     public partial class frmLogin : Form
+        
     {
+       
+
         List<User> Users = new List<User>();
         User user1 = new User();
 
@@ -49,7 +52,7 @@ namespace supermarket_ad0801
         {
             if ((txtUsername.Text == Users[0].Username))
             {
-                Form1 frm = new Form1();
+                frmForm1 frm = new frmForm1();
                 frm.Show();
             }
         }
@@ -59,6 +62,12 @@ namespace supermarket_ad0801
             txtUsername.Text = "";
             txtPassword.Text = "";
 
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+           
         }
     }
 }

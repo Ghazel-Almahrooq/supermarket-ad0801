@@ -125,5 +125,7 @@ namespace supermarket_ad0801
             txtTotal.Text = "";
 
         }
+
+       
     }
 }

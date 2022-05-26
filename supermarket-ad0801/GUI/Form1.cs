@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace supermarket_ad0801
 {
-    public partial class Form1 : Form
+    public partial class frmForm1 : Form
     {
-        public Form1()
+      
+        public frmForm1()
         {
             InitializeComponent();
         }
@@ -27,7 +28,9 @@ namespace supermarket_ad0801
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
+        { 
+
+            
 
         }
 
@@ -49,7 +52,7 @@ namespace supermarket_ad0801
 
         private void btnBuyPay_Click(object sender, EventArgs e)
         {
-            frmBuyPay frm = new frmBuyPay();
+            frmManegment frm = new frmManegment();
             frm.TopLevel = false;
             panelMain.Controls.Add(frm);
             frm.Show();

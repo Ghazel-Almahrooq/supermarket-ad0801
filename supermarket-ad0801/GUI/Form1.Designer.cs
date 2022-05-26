@@ -1,7 +1,7 @@
 ﻿
 namespace supermarket_ad0801
 {
-    partial class Form1
+    partial class frmForm1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace supermarket_ad0801
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmForm1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -185,7 +185,7 @@ namespace supermarket_ad0801
             this.panelMain.Size = new System.Drawing.Size(783, 461);
             this.panelMain.TabIndex = 2;
             // 
-            // Form1
+            // frmForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,7 +193,7 @@ namespace supermarket_ad0801
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "frmForm1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

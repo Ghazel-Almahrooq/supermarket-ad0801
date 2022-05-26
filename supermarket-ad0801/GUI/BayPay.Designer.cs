@@ -1,7 +1,7 @@
 ﻿
 namespace supermarket_ad0801
 {
-    partial class frmBuyPay
+    partial class frmManegment
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,13 @@ namespace supermarket_ad0801
         {
             this.SuspendLayout();
             // 
-            // frmBuyPay
+            // frmManegment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmBuyPay";
-            this.Text = "BuyPay";
+            this.Name = "frmManegment";
+            this.Text = "Manegment";
             this.ResumeLayout(false);
 
         }

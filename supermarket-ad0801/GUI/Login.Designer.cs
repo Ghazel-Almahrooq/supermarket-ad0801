@@ -125,11 +125,13 @@ namespace supermarket_ad0801
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(190, 20);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(349, 228);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(190, 20);
             this.txtPassword.TabIndex = 3;
             // 
