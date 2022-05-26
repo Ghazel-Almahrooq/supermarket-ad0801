@@ -191,5 +191,12 @@ namespace supermarket_ad0801
         {
 
         }
+
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Completed!" +""+ "Your order will be delivered within 2-4 hours.");
+            txtTotal.Text = "";
+
+        }
     }
 }

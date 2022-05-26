@@ -61,6 +61,7 @@ namespace supermarket_ad0801
             this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnBuy = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -382,10 +383,10 @@ namespace supermarket_ad0801
             // 
             this.txtTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(643, 392);
+            this.txtTotal.Location = new System.Drawing.Point(635, 306);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(139, 46);
+            this.txtTotal.Size = new System.Drawing.Size(139, 57);
             this.txtTotal.TabIndex = 5;
             // 
             // label2
@@ -393,11 +394,24 @@ namespace supermarket_ad0801
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Brown;
-            this.label2.Location = new System.Drawing.Point(573, 404);
+            this.label2.Location = new System.Drawing.Point(559, 315);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 34);
             this.label2.TabIndex = 6;
             this.label2.Text = "Total";
+            // 
+            // btnBuy
+            // 
+            this.btnBuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnBuy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuy.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy.Location = new System.Drawing.Point(653, 383);
+            this.btnBuy.Name = "btnBuy";
+            this.btnBuy.Size = new System.Drawing.Size(100, 40);
+            this.btnBuy.TabIndex = 7;
+            this.btnBuy.Text = "Buy";
+            this.btnBuy.UseVisualStyleBackColor = false;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
             // frmPerson
             // 
@@ -405,6 +419,7 @@ namespace supermarket_ad0801
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(794, 448);
+            this.Controls.Add(this.btnBuy);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.dataGridView1);
@@ -473,5 +488,6 @@ namespace supermarket_ad0801
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnBuy;
     }
 }

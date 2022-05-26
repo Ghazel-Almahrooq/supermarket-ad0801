@@ -85,6 +85,17 @@ namespace supermarket_ad0801
                 Qty = int.Parse(Interaction.InputBox("Enter the quantity?", "quantity", ""));
             }
 
+            total = price * Qty;
+            this.dataGridView1.Rows.Add(name, price, Qty, total.ToString());
+
+            int sum = 0;
+            for (int row = 0; row < dataGridView1.Rows.Count; row++)
+            {
+                sum = sum + Convert.ToInt32(dataGridView1.Rows[row].Cells[3].Value);
+            }
+
+            txtTotal.Text = sum.ToString();
+
 
 
 
@@ -100,6 +111,18 @@ namespace supermarket_ad0801
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Completed!" + "" + "Your order will be delivered within 2-4 hours.");
+            txtTotal.Text = "";
 
         }
     }
