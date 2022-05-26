@@ -32,9 +32,9 @@ namespace supermarket_ad0801
             this.lblProduct = new System.Windows.Forms.Label();
             this.lblQuantity = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtProduct = new System.Windows.Forms.TextBox();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
             this.btnCreate = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -69,29 +69,29 @@ namespace supermarket_ad0801
             this.lblPrice.TabIndex = 2;
             this.lblPrice.Text = "Price";
             // 
-            // textBox1
+            // txtProduct
             // 
-            this.textBox1.Location = new System.Drawing.Point(90, 30);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 40);
-            this.textBox1.TabIndex = 3;
+            this.txtProduct.Location = new System.Drawing.Point(90, 30);
+            this.txtProduct.Multiline = true;
+            this.txtProduct.Name = "txtProduct";
+            this.txtProduct.Size = new System.Drawing.Size(119, 40);
+            this.txtProduct.TabIndex = 3;
             // 
-            // textBox2
+            // txtQuantity
             // 
-            this.textBox2.Location = new System.Drawing.Point(362, 33);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(119, 40);
-            this.textBox2.TabIndex = 4;
+            this.txtQuantity.Location = new System.Drawing.Point(362, 33);
+            this.txtQuantity.Multiline = true;
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(119, 40);
+            this.txtQuantity.TabIndex = 4;
             // 
-            // textBox3
+            // txtPrice
             // 
-            this.textBox3.Location = new System.Drawing.Point(633, 30);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(119, 40);
-            this.textBox3.TabIndex = 5;
+            this.txtPrice.Location = new System.Drawing.Point(633, 30);
+            this.txtPrice.Multiline = true;
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(119, 40);
+            this.txtPrice.TabIndex = 5;
             // 
             // btnCreate
             // 
@@ -127,6 +127,7 @@ namespace supermarket_ad0801
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(801, 275);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // frmManegment
             // 
@@ -138,14 +139,15 @@ namespace supermarket_ad0801
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnCreate);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtQuantity);
+            this.Controls.Add(this.txtProduct);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblProduct);
             this.Name = "frmManegment";
             this.Text = "Manegment";
+            this.Load += new System.EventHandler(this.frmManegment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -157,9 +159,9 @@ namespace supermarket_ad0801
         private System.Windows.Forms.Label lblProduct;
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.Label lblPrice;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtProduct;
+        private System.Windows.Forms.TextBox txtQuantity;
+        private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;

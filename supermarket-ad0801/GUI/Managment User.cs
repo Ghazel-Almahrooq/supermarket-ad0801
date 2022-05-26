@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace supermarket_ad0801
+namespace supermarket_ad0801.GUI
 {
-    public partial class frmManegment : Form
+    public partial class Managment_User : Form
     {
-        public frmManegment()
+        public Managment_User()
         {
             InitializeComponent();
         }
