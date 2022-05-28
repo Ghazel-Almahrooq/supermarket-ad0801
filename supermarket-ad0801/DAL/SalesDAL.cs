@@ -12,7 +12,7 @@ namespace supermarket_ad0801
    public class SalesDAL
     {
         private static string StringConniction = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\ASH\\OneDrive\\Documents\\supermarket.accdb";
-        private static OleDbConnection Connection = new OleDbConnection();
+        private static OleDbConnection Connection = new OleDbConnection(StringConniction);
         public static void InsertCommand(Sales sales)
         {
             string commandText = string.Format("Insert into Sales(Product,Quantity,Price)" +

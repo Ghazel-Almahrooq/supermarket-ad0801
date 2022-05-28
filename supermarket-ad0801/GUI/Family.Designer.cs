@@ -53,6 +53,7 @@ namespace supermarket_ad0801
             this.label2 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.btnBuy = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -299,12 +300,21 @@ namespace supermarket_ad0801
             this.btnBuy.UseVisualStyleBackColor = false;
             this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(519, 241);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 6;
+            // 
             // frmFamily
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(799, 500);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnBuy);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label2);
@@ -313,6 +323,7 @@ namespace supermarket_ad0801
             this.Controls.Add(this.panel1);
             this.Name = "frmFamily";
             this.Text = "Family";
+            this.Load += new System.EventHandler(this.frmFamily_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -359,5 +370,6 @@ namespace supermarket_ad0801
         private System.Windows.Forms.DataGridViewTextBoxColumn qty;
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.Button btnBuy;
+        private System.Windows.Forms.Label label3;
     }
 }

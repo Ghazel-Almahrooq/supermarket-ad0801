@@ -45,27 +45,31 @@ namespace supermarket_ad0801
             // lblProduct
             // 
             this.lblProduct.AutoSize = true;
-            this.lblProduct.Location = new System.Drawing.Point(40, 36);
+            this.lblProduct.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProduct.Location = new System.Drawing.Point(12, 33);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(44, 13);
+            this.lblProduct.Size = new System.Drawing.Size(72, 23);
             this.lblProduct.TabIndex = 0;
             this.lblProduct.Text = "Product";
             // 
             // lblQuantity
             // 
             this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantity.Location = new System.Drawing.Point(276, 33);
             this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(46, 13);
+            this.lblQuantity.Size = new System.Drawing.Size(76, 23);
             this.lblQuantity.TabIndex = 1;
             this.lblQuantity.Text = "Quantity";
+            this.lblQuantity.Click += new System.EventHandler(this.lblQuantity_Click);
             // 
             // lblPrice
             // 
             this.lblPrice.AutoSize = true;
+            this.lblPrice.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrice.Location = new System.Drawing.Point(563, 36);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(31, 13);
+            this.lblPrice.Size = new System.Drawing.Size(51, 23);
             this.lblPrice.TabIndex = 2;
             this.lblPrice.Text = "Price";
             // 
@@ -74,7 +78,7 @@ namespace supermarket_ad0801
             this.txtProduct.Location = new System.Drawing.Point(90, 30);
             this.txtProduct.Multiline = true;
             this.txtProduct.Name = "txtProduct";
-            this.txtProduct.Size = new System.Drawing.Size(119, 40);
+            this.txtProduct.Size = new System.Drawing.Size(119, 30);
             this.txtProduct.TabIndex = 3;
             // 
             // txtQuantity
@@ -82,7 +86,7 @@ namespace supermarket_ad0801
             this.txtQuantity.Location = new System.Drawing.Point(362, 33);
             this.txtQuantity.Multiline = true;
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(119, 40);
+            this.txtQuantity.Size = new System.Drawing.Size(119, 27);
             this.txtQuantity.TabIndex = 4;
             // 
             // txtPrice
@@ -90,35 +94,44 @@ namespace supermarket_ad0801
             this.txtPrice.Location = new System.Drawing.Point(633, 30);
             this.txtPrice.Multiline = true;
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(119, 40);
+            this.txtPrice.Size = new System.Drawing.Size(119, 30);
             this.txtPrice.TabIndex = 5;
             // 
             // btnCreate
             // 
+            this.btnCreate.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCreate.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreate.Location = new System.Drawing.Point(181, 113);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(99, 39);
             this.btnCreate.TabIndex = 6;
             this.btnCreate.Text = "Create";
-            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.UseVisualStyleBackColor = false;
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUpdate.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(335, 113);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(104, 39);
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.Khaki;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDelete.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(504, 113);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 39);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 

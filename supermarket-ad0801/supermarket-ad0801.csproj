@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\UserDAL.cs" />
     <Compile Include="entities\Sales.cs" />
     <Compile Include="GUI\Mnamgment Supermarket.cs">
       <SubType>Form</SubType>

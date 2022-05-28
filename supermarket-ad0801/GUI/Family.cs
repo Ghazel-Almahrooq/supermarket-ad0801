@@ -126,6 +126,9 @@ namespace supermarket_ad0801
 
         }
 
-       
+        private void frmFamily_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Click on the image of the product you want to be added and select the quantitiy");
+        }
     }
 }

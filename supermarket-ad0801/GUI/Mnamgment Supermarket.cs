@@ -43,5 +43,10 @@ namespace supermarket_ad0801
         {
             RefreshdataGridView();
         }
+
+        private void lblQuantity_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
