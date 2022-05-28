@@ -195,6 +195,7 @@ namespace supermarket_ad0801
             this.Controls.Add(this.panel1);
             this.Name = "frmForm1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmForm1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

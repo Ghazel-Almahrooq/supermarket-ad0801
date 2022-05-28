@@ -12,7 +12,7 @@ namespace supermarket_ad0801
 {
     public partial class frmForm1 : Form
     {
-      
+        public TextBox txtUsername;
         public frmForm1()
         {
             InitializeComponent();
@@ -56,6 +56,11 @@ namespace supermarket_ad0801
             frm.TopLevel = false;
             panelMain.Controls.Add(frm);
             frm.Show();
+        }
+
+        private void frmForm1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

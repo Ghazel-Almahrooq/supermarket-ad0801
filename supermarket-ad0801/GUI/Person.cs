@@ -198,5 +198,10 @@ namespace supermarket_ad0801
             txtTotal.Text = "";
 
         }
+
+        private void frmPerson_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Click on the image of the product you want to be added and select the quantitiy");
+        }
     }
 }

@@ -427,6 +427,7 @@ namespace supermarket_ad0801
             this.Controls.Add(this.panel1);
             this.Name = "frmPerson";
             this.Text = "Person";
+            this.Load += new System.EventHandler(this.frmPerson_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);

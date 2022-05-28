@@ -18,11 +18,10 @@ namespace supermarket_ad0801
         List<User> Users = new List<User>();
         User user1 = new User();
 
-
-
         public frmLogin()
         {
             InitializeComponent();
+            txtUsername = txtUsername;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
